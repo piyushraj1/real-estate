@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="feed, feeds, poultry, aroma, broiler, layer, starter, mash">
+	<title>Home|Aroma Feeeds</title>
+	<link rel="stylesheet" type="text/css" href="rsk-web.css">
+	<link rel="icon" type="image/png" href="rsk-logo.png"/>
+		<style>
+		form{
+			background-image: linear-gradient(to top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+			padding: 10px;
+			align-content: center;
+		}
+
+		input[type=text]{
+			width: 35%;
+		}
+
+		input{
+			margin: 5px 0;
+			padding: 6px;
+			box-sizing: border-box;
+			border-radius: 5px;
+			border:none;
+			background-color: #f5f5dc;
+		}
+		input[type=submit]{
+			background-color: green;
+			color: white;
+			position: relative;
+			left: 30%;
+			width: 40%;
+		}
+		textarea{
+			width: 80%;
+			height: 20%;
+			margin: 5px;
+			box-sizing: border-box;
+			resize: none;
+		}
+		select{
+			width: 30%;
+			background-color: #f5f5dc;
+			padding: 2px;
+			box-sizing: border-box;
+			border-radius: 4px;
+		}
+		label{
+			padding-left: 10px;
+		}
+
+	</style>
+	
+	
+</head>
+<body>
+			<nav>
+			<ul>
+				<li><a href="Home.htm" class="active">Home</a></li>
+				<li><a href="about.htm">About Us</a></li>
+				<li><a href="products.htm">Products</a></li>
+				<li><a href="media.htm">Media</a></li>
+				<li><a href="blog.htm">Blog</a></li>
+				<li><a href="contact.htm">Contact Us</a></li>
+				</ul>
+		</nav>
+	<header>
+		<a href="home.htm"><img src="images/logo 3d.png" class="logo"/></a>
+		<span id="date">
+			<p id="time"></p>
+		</span>
+		<a href="https://www.facebook.com/aromagroups" target="_blank"><img src="images/fb-icon.png" class="icon"></a>
+		<button type="rectangle"><a href="register.htm" class="login">Register</a></button>
+	</header>
+	<svg height="130" width="1000">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="black" font-size="45" font-family="Verdana" x="50" y="86">AROMA FEEDS</text>
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+
+<form class="register" autocomplete="on">
+		<fieldset>
+			<legend>Registration Form</legend>
+		<label for="fname"></label>
+		<input type="text" id="fname" name="fname" placeholder="First Name" required autofocus>
+		<label for="lname"></label>
+		<input type="text" id="lname" name="lname" placeholder="Last Name">
+		<br>-->
+
+		<!--For username and password-->
+		<label for="username">Username:</label>
+		<input type="username" id="username" name="username" placeholder="Username">
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" pattern="[A-Z]{1}[a-z]{7}" placeholder="Password">
+		<br>
+
+		<strong>Gender:</strong>&nbsp;
+		
+		<input type="radio" id="male" name="gender" value="male" style="width: auto;">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="female"style="width: auto;">
+		<label for="female">Female</label>
+		<input type="radio" id="other" name="gender" value="other" style="width: auto;">
+		<label for="other">Other</label>
+		<br>
+
+		<label for="dob">DOB:</label>
+		<input type="date" id="dob" name="dob" style="width: auto;"><br>
+
+		<em>I am a:</em><br>
+		&nbsp;
+		<input type="checkbox" id="farmer1" name="farmer1" value="Layer Farmer" style="width: auto;">
+		<label for="farmer1">Layer Farmer</label>
+		<input type="checkbox" id="farmer2" name="farmer2" value="Broiler Farmer" style="width: auto;">
+		<label for="farmer2">Broiler Farmer</label>
+		<input type="checkbox" id="farmer3" name="farmer3" value=" Both" style="width: auto;">
+		<label for="farmer3">Both</label>
+		<br><br>
+		<!--Enter contact details-->
+		<label for="mobile">Mobile Number:</label>
+		<input type="tel" id="mobile" name="mobile" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required="" >&nbsp;&nbsp;
+		<label for="email">Email:</label>
+		<input type="email"  id="email" name="Enter your Email" placeholder="abc@email.com">
+		<br><br>-->
+
+		<!--Enter Address-->
+		<label for="address1">Address Line 1:</label>
+		<input type="text" id="address1" name="address1" placeholder="Address Line 1">
+
+		<label for="address2">Address Line 2:</label>
+		<input type="text" id="address2" name="address2" placeholder="Address Line 2">
+		<br><br>
+		<label for="city">City:</label>
+		<input type="text" id="city" name="city" placeholder="City" style="width: auto;">
+		
+		<label for="state">State:</label>
+		<select id="state" name="state" style="width: auto;">
+			<option value="select">-Select-</option>
+			<option value="andhra">Andhra Pradesh</option>
+			<option value="arunachal">Arunachal Pradesh</option>
+			<option value="assam">Assam</option>
+			<option value="bihar">Bihar</option>
+			<option value="chhattisgarh">Chhattisgarh</option>
+			<option value="goa">Goa</option>
+			<option value="gujarat">Gujarat</option>
+			<option value="haryana">Haryana</option>
+			<option value="himachal">Himachal Pradesh</option>
+			<option value="jharkhand">Jharkhand</option>
+			<option value="karnataka">Karnataks</option>
+			<option value="kerala">Kerala</option>
+			<option value="madhya">Madhya Pradesh</option>
+			<option value=maharashtra>Maharashtra</option>
+			<option value="manipur">Manipur</option>
+			<option value="meghalaya">Meghalaya</option>
+			<option value="mizoram">Mizoram</option>
+			<option value="nagaland">Nagaland</option>
+			<option value="odisha">Odisha</option>
+			<option value="punjab">Punjab</option>
+			<option value="rajasthan">Rajasthan</option>
+			<option value="sikkim">Sikkim</option>
+			<option value="tamil-nadu">Tamil Nadu</option>
+			<option value="telangana">Telangana</option>
+			<option value="tripura">Tripura</option>
+			<option value="uttarakhand">Uttarakhand</option>
+			<option value="west-bengal">West Bengal</option>
+		</select>
+		<br><br>
+		<label for="states">State 2</label>
+		<input list="states">
+		<datalist id="states">
+			<option value="select">-Select-</option>
+			<option value="andhra">Andhra Pradesh</option>
+			<option value="arunachal">Arunachal Pradesh</option>
+			<option value="assam">Assam</option>
+			<option value="bihar">Bihar</option>
+			<option value="chhattisgarh">Chhattisgarh</option>
+			<option value="goa">Goa</option>
+			<option value="gujarat">Gujarat</option>
+			<option value="haryana">Haryana</option>
+			<option value="himachal">Himachal Pradesh</option>
+			<option value="jharkhand">Jharkhand</option>
+			<option value="karnataka">Karnataks</option>
+			<option value="kerala">Kerala</option>
+			<option value="madhya">Madhya Pradesh</option>
+			<option value=maharashtra>Maharashtra</option>
+			<option value="manipur">Manipur</option>
+			<option value="meghalaya">Meghalaya</option>
+			<option value="mizoram">Mizoram</option>
+			<option value="nagaland">Nagaland</option>
+			<option value="odisha">Odisha</option>
+			<option value="punjab">Punjab</option>
+			<option value="rajasthan">Rajasthan</option>
+			<option value="sikkim">Sikkim</option>
+			<option value="tamil-nadu">Tamil Nadu</option>
+			<option value="telangana">Telangana</option>
+			<option value="tripura">Tripura</option>
+			<option value="uttarakhand">Uttarakhand</option>
+			<option value="west-bengal">West Bengal</option>
+		</datalist>
+		<br>
+		<br>
+		
+		<label for="file">Select a file:</label>
+		<input type="file" id="file" name="file">
+		<br>
+		<input type="image" src="rsk-logo.png" alt="Aroma Feeds" height="20px" width="20px">
+
+		<textarea name="message" style="height: 100px; width: 150px">
+			Enter Your Message
+		</textarea>
+		<br><br>
+		<button type="button" onclick="alert('Welcome to Aroma Feeds!!')">Welcome</button><br><br>
+		<input type="submit" name="Submit" value="Submit">
+		<input type="reset" name="Reset">
+		</fieldset>
+
+		<br>
+		<label for="search">Search google</label>
+		<input type="search" id="search" name="search">
+	</form>
+
+
+		<footer>
+		<p><sup>&copy;</sup> Aroma Feeds Private Limited 2009-2021</p>
+		</footer>
+
+<script type="text/javascript" src="rsk-web.js"></script>
+
+
+</body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="rsk-web.css">
+	<link rel="icon" type="image/png" href="rsk-logo.png"/>
+	<style>
+		form{
+			background-image: linear-gradient(to top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+			padding: 10px;
+			align-content: center;
+		}
+
+		input[type=text]{
+			width: 35%;
+		}
+
+		input{
+			margin: 5px 0;
+			padding: 6px;
+			box-sizing: border-box;
+			border-radius: 5px;
+			border:none;
+			background-color: #f5f5dc;
+		}
+		input[type=submit]{
+			background-color: green;
+			color: white;
+			position: relative;
+			left: 30%;
+			width: 40%;
+		}
+		textarea{
+			width: 80%;
+			height: 20%;
+			margin: 5px;
+			box-sizing: border-box;
+			resize: none;
+		}
+		select{
+			width: 30%;
+			background-color: #f5f5dc;
+			padding: 2px;
+			box-sizing: border-box;
+			border-radius: 4px;
+		}
+		label{
+			padding-left: 10px;
+		}
+
+	</style>
+</head>
+<body>
+
+	
+
+	<header>
+		<a href="home.htm"><img src="images/logo 3d.png" class="logo"/></a>
+		<a href="https://www.facebook.com/aromagroups"><img src="images/fb-icon.png" class="icon"></a>
+		<button type="rectangle"><a href="login.htm" class="login">Login</a></button>
+	</header>
+		<nav>
+		<ul>
+			<li><a href="Home.htm">Home</a></li>
+			<li><a href="about.htm">About Us</a></li>
+			<li><a href="products.htm">Products</a></li>
+			<li><a href="media.htm">Media</a></li>
+			<li><a href="blog.htm">Blog</a></li>
+			<li><a href="contact.htm">Contact Us</a></li>
+			</ul>
+		</nav>-->
+
+		<!--creating SVG logo for Aroma-->
+<!--	<svg height="130" width="1000">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="black" font-size="45" font-family="Verdana" x="50" y="86">AROMA FEEDS</text>
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+
+	<form class="register" autocomplete="on">
+		<fieldset>
+			<legend>Registration Form</legend>
+		<label for="fname"></label>
+		<input type="text" id="fname" name="fname" placeholder="First Name" required autofocus>
+		<label for="lname"></label>
+		<input type="text" id="lname" name="lname" placeholder="Last Name">
+		<br>-->
+
+		<!--For username and password-->
+		<!--<label for="username">Username:</label>
+		<input type="username" id="username" name="username" placeholder="Username">
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" pattern="[A-Z]{1}[a-z]{7}" placeholder="Password">
+		<br>
+
+		<strong>Gender:</strong>&nbsp;
+		
+		<input type="radio" id="male" name="gender" value="male" style="width: auto;">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="female"style="width: auto;">
+		<label for="female">Female</label>
+		<input type="radio" id="other" name="gender" value="other" style="width: auto;">
+		<label for="other">Other</label>
+		<br>
+
+		<label for="dob">DOB:</label>
+		<input type="date" id="dob" name="dob" style="width: auto;"><br>
+
+		<em>I am a:</em><br>
+		&nbsp;
+		<input type="checkbox" id="farmer1" name="farmer1" value="Layer Farmer" style="width: auto;">
+		<label for="farmer1">Layer Farmer</label>
+		<input type="checkbox" id="farmer2" name="farmer2" value="Broiler Farmer" style="width: auto;">
+		<label for="farmer2">Broiler Farmer</label>
+		<input type="checkbox" id="farmer3" name="farmer3" value=" Both" style="width: auto;">
+		<label for="farmer3">Both</label>
+		<br><br>-->
+
+		<!--Enter contact details-->
+		<!--<label for="mobile">Mobile Number:</label>
+		<input type="tel" id="mobile" name="mobile" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required="" >&nbsp;&nbsp;
+		<label for="email">Email:</label>
+		<input type="email"  id="email" name="Enter your Email" placeholder="abc@email.com">
+		<br><br>-->
+
+		<!--Enter Address-->
+		<!--<label for="address1">Address Line 1:</label>
+		<input type="text" id="address1" name="address1" placeholder="Address Line 1">
+
+		<label for="address2">Address Line 2:</label>
+		<input type="text" id="address2" name="address2" placeholder="Address Line 2">
+		<br><br>
+		<label for="city">City:</label>
+		<input type="text" id="city" name="city" placeholder="City" style="width: auto;">
+		
+		<label for="state">State:</label>
+		<select id="state" name="state" style="width: auto;">
+			<option value="select">-Select-</option>
+			<option value="andhra">Andhra Pradesh</option>
+			<option value="arunachal">Arunachal Pradesh</option>
+			<option value="assam">Assam</option>
+			<option value="bihar">Bihar</option>
+			<option value="chhattisgarh">Chhattisgarh</option>
+			<option value="goa">Goa</option>
+			<option value="gujarat">Gujarat</option>
+			<option value="haryana">Haryana</option>
+			<option value="himachal">Himachal Pradesh</option>
+			<option value="jharkhand">Jharkhand</option>
+			<option value="karnataka">Karnataks</option>
+			<option value="kerala">Kerala</option>
+			<option value="madhya">Madhya Pradesh</option>
+			<option value=maharashtra>Maharashtra</option>
+			<option value="manipur">Manipur</option>
+			<option value="meghalaya">Meghalaya</option>
+			<option value="mizoram">Mizoram</option>
+			<option value="nagaland">Nagaland</option>
+			<option value="odisha">Odisha</option>
+			<option value="punjab">Punjab</option>
+			<option value="rajasthan">Rajasthan</option>
+			<option value="sikkim">Sikkim</option>
+			<option value="tamil-nadu">Tamil Nadu</option>
+			<option value="telangana">Telangana</option>
+			<option value="tripura">Tripura</option>
+			<option value="uttarakhand">Uttarakhand</option>
+			<option value="west-bengal">West Bengal</option>
+		</select>
+		<br><br>
+		<label for="states">State 2</label>
+		<input list="states">
+		<datalist id="states">
+			<option value="select">-Select-</option>
+			<option value="andhra">Andhra Pradesh</option>
+			<option value="arunachal">Arunachal Pradesh</option>
+			<option value="assam">Assam</option>
+			<option value="bihar">Bihar</option>
+			<option value="chhattisgarh">Chhattisgarh</option>
+			<option value="goa">Goa</option>
+			<option value="gujarat">Gujarat</option>
+			<option value="haryana">Haryana</option>
+			<option value="himachal">Himachal Pradesh</option>
+			<option value="jharkhand">Jharkhand</option>
+			<option value="karnataka">Karnataks</option>
+			<option value="kerala">Kerala</option>
+			<option value="madhya">Madhya Pradesh</option>
+			<option value=maharashtra>Maharashtra</option>
+			<option value="manipur">Manipur</option>
+			<option value="meghalaya">Meghalaya</option>
+			<option value="mizoram">Mizoram</option>
+			<option value="nagaland">Nagaland</option>
+			<option value="odisha">Odisha</option>
+			<option value="punjab">Punjab</option>
+			<option value="rajasthan">Rajasthan</option>
+			<option value="sikkim">Sikkim</option>
+			<option value="tamil-nadu">Tamil Nadu</option>
+			<option value="telangana">Telangana</option>
+			<option value="tripura">Tripura</option>
+			<option value="uttarakhand">Uttarakhand</option>
+			<option value="west-bengal">West Bengal</option>
+		</datalist>
+		<br>
+		<br>
+		
+		<label for="file">Select a file:</label>
+		<input type="file" id="file" name="file">
+		<br>
+		<input type="image" src="rsk-logo.png" alt="Aroma Feeds" height="20px" width="20px">
+
+		<textarea name="message" style="height: 100px width: 150px">
+			Enter Your Message
+		</textarea>
+		<br><br>
+		<button type="button" onclick="alert('Welcome to Aroma Feeds!!')">Welcome</button><br><br>
+		<input type="submit" name="Submit" value="Submit">
+		<input type="reset" name="Reset">
+		</fieldset>
+
+		<br>
+		<label for="search">Search google</label>
+		<input type="search" id="search" name="search">
+	</form>
+
+	<footer>
+		<p><sup>&copy;</sup> Aroma Feeds Private Limited 2009-2021</p>
+	</footer>
+
+</body>
+</html>-->
